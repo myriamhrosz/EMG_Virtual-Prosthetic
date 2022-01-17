@@ -141,7 +141,7 @@ def update(dt):
   print(np.mean(voltagedata[-100::]))   #print mean of voltage data
   
   if np.mean(voltagedata[-100::]) > 0.045:   #determine whether voltage surpasses flexing threshold or not
-   flexing = True #display 1
+   flexing = True  #display 1
    counta.write(0) #pin A off
    countb.write(1) #pin B on
    countc.write(1) #pin C on
