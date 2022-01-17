@@ -113,11 +113,9 @@ def update(dt):
   newDisplay = list(displayData[len(newData):len(displayData)] + newData)
   displayData = list(newDisplay)
 
-  #Put your flex algorithm code here!
   #If flexing is detected, set the 'flexing' variable to True.
   #Otherwise, set it to False. 
-  #############################
-  #ALL OF YOUR CODE SHOULD GO BELOW HERE
+ 
   #turn display data from bits into integers
   displayintdata = list(int(x) for x in displayData)
   #turn integers into volts
